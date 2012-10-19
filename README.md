@@ -1,4 +1,2 @@
-YAKL
+YAKL - Yet Another KML library for Android
 ====
-
-Yet Another KML library
