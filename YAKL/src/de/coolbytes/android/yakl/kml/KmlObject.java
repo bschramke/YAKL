@@ -52,5 +52,13 @@ public abstract class KmlObject {
 		return mId;
 	}
 	
+	public String getTargetId(){
+		return mTargetId;
+	}
+	
+	public void setTargetId(final String id){
+		mTargetId = id;
+	}
+	
 	protected abstract void setValue(String localName,int localNameHash,String value);
 }
