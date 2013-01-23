@@ -30,7 +30,7 @@ public class KmlMultiGeometry extends KmlGeometry {
 
 	private static final String TAG = KmlMultiGeometry.class.getSimpleName();
 	private static int mCounter = 0;
-	private List<KmlGeometry> mChilds = null;
+	private ArrayList<KmlGeometry> mChilds = null;
 	/**
 	 * 
 	 */
@@ -58,7 +58,7 @@ public class KmlMultiGeometry extends KmlGeometry {
 		mChilds.add(obj);
 	}
 	
-	public List<KmlGeometry> getGeometry(){
+	public ArrayList<KmlGeometry> getGeometry(){
 		return mChilds;
 	}
 	

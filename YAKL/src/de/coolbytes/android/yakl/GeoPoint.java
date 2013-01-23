@@ -3,6 +3,9 @@
  */
 package de.coolbytes.android.yakl;
 
+import java.util.Iterator;
+import java.util.List;
+
 import android.util.Log;
 
 /**
@@ -39,11 +42,11 @@ public class GeoPoint {
 	}
 
 	public int getLatitudeE6(){
-		return mAltitude;
+		return mLat;
 	}
 
 	public int getLongitudeE6(){
-		return mAltitude;
+		return mLon;
 	}
 
 	/** Converts the Values to the correct format for GeoPoints
@@ -83,4 +86,5 @@ public class GeoPoint {
 		
 		return new GeoPoint(lat,lon,alt);
 	}
+	
 }
